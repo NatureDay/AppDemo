@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/default_content_item_height">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_input_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/text_input_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/common_ic_clear" />
+
+    <!--<android.support.v7.widget.AppCompatCheckBox-->
+    <!--android:id="@+id/text_input_password_toggle"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:button="@drawable/common_ic_pwd_btn" />-->
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/text_input_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/default_space_padding"
+        android:layout_marginRight="@dimen/default_space_padding"
+        android:layout_toLeftOf="@id/text_input_clear"
+        android:layout_toRightOf="@id/text_input_label"
+        android:background="@null"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:singleLine="true" />
+</RelativeLayout>

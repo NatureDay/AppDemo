@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="label" format="reference|string" />
+    <attr name="textHint" format="reference|string" />
+    <attr name="textLength" format="integer" />
+    <attr name="inputPassword" format="boolean" />
+
+    <declare-styleable name="TextInputView">
+        <!-- 标签 -->
+        <attr name="label" />
+        <!-- 输入提示 -->
+        <attr name="textHint" />
+        <!-- 输入长度 -->
+        <attr name="textLength" />
+        <!-- 是否是输入密码模式 -->
+        <attr name="inputPassword" />
+    </declare-styleable>
+
+</resources>

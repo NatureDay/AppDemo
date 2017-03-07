@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.qianmo.common.gallery.view.SquareImageView
+        android:id="@+id/gallery_picker_item_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_photo_loading" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/gallery_picker_item_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:clickable="false"
+        android:focusable="false" />
+</FrameLayout>

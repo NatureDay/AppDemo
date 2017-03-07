@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">library</string>
+    <string name="http_error_msg_bad_request">错误请求</string>
+    <string name="http_error_msg_unauthorized">未授权</string>
+    <string name="http_error_msg_forbidden">服务器拒绝请求</string>
+    <string name="http_error_msg_not_found">未找到</string>
+    <string name="http_error_msg_method_not_allowed">方法禁用</string>
+    <string name="http_error_msg_not_acceptable">不接受</string>
+    <string name="http_error_msg_internal_server_error">服务器内部错误</string>
+    <string name="http_error_msg_not_implemented">尚未实施</string>
+    <string name="http_error_msg_bad_gateway">错误网关</string>
+    <string name="http_error_msg_service_unavailable">服务不可用</string>
+    <string name="http_error_msg_gateway_timeout">网关超时</string>
+    <string name="http_error_msg_unknown">网络异常</string>
+    <string name="error_msg_server_fail">服务器连接异常</string>
+    <string name="error_msg_exception_parse">数据解析异常</string>
+    <string name="error_msg_exception_unknown">未知异常</string>
+</resources>

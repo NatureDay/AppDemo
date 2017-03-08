@@ -18,8 +18,8 @@ public class BaseApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        verifySignature();
         //JniUtil.verifySignature(this);
+        verifySignature();
     }
 
     private void verifySignature() {

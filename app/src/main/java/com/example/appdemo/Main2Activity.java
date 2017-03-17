@@ -6,14 +6,14 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.qianmo.common.view.AppCommonLoadRecyclerView;
+import com.qianmo.common.view.AppCommonLoadHeaderRecyclerView;
 import com.qianmo.common.view.RecyclerLoadListener;
 
 import java.util.ArrayList;
 
 public class Main2Activity extends AppCompatActivity implements RecyclerLoadListener {
 
-    private AppCommonLoadRecyclerView mRecyclerView;
+    private AppCommonLoadHeaderRecyclerView mRecyclerView;
     private ListAdapter mAdapter;
     private ArrayList<String> mData;
 
@@ -24,7 +24,7 @@ public class Main2Activity extends AppCompatActivity implements RecyclerLoadList
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         mData = new ArrayList<String>();
-        mRecyclerView = (AppCommonLoadRecyclerView) findViewById(R.id.recyclerview);
+        mRecyclerView = (AppCommonLoadHeaderRecyclerView) findViewById(R.id.recyclerview);
 
         View view1 = LayoutInflater.from(this).inflate(R.layout.common_load_view, null);
         View view2 = LayoutInflater.from(this).inflate(R.layout.common_load_view, null);

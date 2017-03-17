@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity implements ImageProcessTask.
 //        intent1.putStringArrayListExtra(ConfigCommon.KEY_GALLERY_PREVIEW_IMAGE_URLS, urls);
 //        startActivity(intent1);
 
-        Intent intent = new Intent(this, LRActivity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(this, LRActivity.class);
+//        startActivity(intent);
     }
 
     @Override

@@ -11,7 +11,7 @@ import android.view.View;
  * 通用分页加载RecyclerView，配合AppHeaderFooterCommonAdapter使用
  */
 
-public class AppCommonLoadRecyclerView extends AppCommonRecyclerView {
+public class AppCommonLoadHeaderRecyclerView extends AppCommonHeaderRecyclerView {
 
     /**
      * 分页加载时显示view
@@ -32,15 +32,15 @@ public class AppCommonLoadRecyclerView extends AppCommonRecyclerView {
 
     private AppCommonOnScrollListener mAppCommonOnScrollListener;
 
-    public AppCommonLoadRecyclerView(Context context) {
+    public AppCommonLoadHeaderRecyclerView(Context context) {
         this(context, null);
     }
 
-    public AppCommonLoadRecyclerView(Context context, AttributeSet attrs) {
+    public AppCommonLoadHeaderRecyclerView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public AppCommonLoadRecyclerView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public AppCommonLoadHeaderRecyclerView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initView();
     }

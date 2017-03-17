@@ -11,7 +11,7 @@ import com.qianmo.common.basis.AppHeaderFooterCommonAdapter;
 /**
  * 通用RecyclerView，配合AppCommonAdapter使用，支持emptyview，headerview，footerview
  */
-public class AppCommonRecyclerView extends RecyclerView {
+public class AppCommonHeaderRecyclerView extends RecyclerView {
     /**
      * empty view
      */
@@ -45,15 +45,15 @@ public class AppCommonRecyclerView extends RecyclerView {
         }
     };
 
-    public AppCommonRecyclerView(Context context) {
+    public AppCommonHeaderRecyclerView(Context context) {
         this(context, null);
     }
 
-    public AppCommonRecyclerView(Context context, @Nullable AttributeSet attrs) {
+    public AppCommonHeaderRecyclerView(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public AppCommonRecyclerView(Context context, @Nullable AttributeSet attrs, int defStyle) {
+    public AppCommonHeaderRecyclerView(Context context, @Nullable AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 
